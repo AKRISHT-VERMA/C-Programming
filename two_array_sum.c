@@ -9,4 +9,10 @@ int main() {
         printf("Element %d: ", i + 1);
         scanf("%d", &arr1[i]);
     }
+
+    printf("\nEnter 10 elements for second array:\n");
+    for(i = 0; i < 10; i++) {
+        printf("Element %d: ", i + 1);
+        scanf("%d", &arr2[i]);
+    }
 }    
