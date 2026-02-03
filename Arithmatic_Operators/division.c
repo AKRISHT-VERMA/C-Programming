@@ -7,7 +7,7 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
 
-    result = (a / b);
+    result = (float)a / b;
 
     printf("Division = %.2f", result);
 
