@@ -12,5 +12,11 @@ int main()
     hra = 0.10 * basic;      
     ta  = 0.05 * basic;      
 
-    
+    gross = basic + hra + ta;   
+
+    tax = 0.02 * gross;        
+
+    net = gross - tax;          
+
+   
 }
