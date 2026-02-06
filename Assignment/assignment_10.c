@@ -24,5 +24,15 @@ int main() {
             result = pow(base, exponent);
             printf("%.2lf raised to the power of %.2lf is %.2lf\n", base, exponent, result);
             break;
-   
+        case 2:
+            printf("Enter a number: ");
+            int n;
+            scanf("%d", &n);
+            result = 1;
+            for (int i = 1; i <= n; i++) {
+                result *= i;
+            }
+            printf("Factorial of %d is %.0lf\n", n, result);
+            break;
+        
 }
