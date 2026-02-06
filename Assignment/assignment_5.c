@@ -27,3 +27,5 @@ int main() {
     } else {
         printf("Student is Fail\n");
     }
+    return 0;
+}
