@@ -8,13 +8,10 @@ int main() {
     // aggregate percentage >= 60% and < 75% - First division
     // aggregate percentage >= 50% and < 60% - Second division
     // aggregate percentage >= 40% and < 50% - Third division
-    int marks[5];
-    int total = 0;
-    float percentage;
-
-    printf("Enter marks obtained in 5 subjects:\n");
-    for(int i = 0; i < 5; i++) {
-        printf("Subject %d: ", i + 1);
+    int marks[5], i;
+    float total = 0, percentage;
+    printf("Enter marks obtained in 5 subjects: ");
+    for(i = 0; i < 5; i++) {
         scanf("%d", &marks[i]);
         total += marks[i];
 }
