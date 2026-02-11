@@ -11,5 +11,11 @@ int main()
     scanf("%d", &num);
 
     
+    sqrt_result = sqrt(num);
+
+    int square = num * num;
+    
+    int cube = num * num * num;
+
     
 }
