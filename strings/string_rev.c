@@ -9,5 +9,14 @@ int main() {
     printf("Enter a string: ");
     fgets(str, sizeof(str), stdin);
 
-    
+    length = strlen(str);
+
+    printf("Reversed string: ");
+
+    for(i = length - 1; i >= 0; i--)
+    {
+        printf("%c", str[i]);
+    }
+
+    return 0;
 }
