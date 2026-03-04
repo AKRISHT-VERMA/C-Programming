@@ -16,5 +16,12 @@ int main() {
         rev[i] = str[length - 1 - i];
     }
 
-    
+    rev[length] = '\0';
+
+    if(strcmp(str, rev) == 0)
+        printf("String is Palindrome\n");
+    else
+        printf("String is Not Palindrome\n");
+
+    return 0;
 }
