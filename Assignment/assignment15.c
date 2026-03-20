@@ -5,7 +5,7 @@
 int main() {
     int i, n;
 
-    // Seed the random number generator
+
     srand(time(0));
 
     printf("Enter the number of random numbers to generate: ");
