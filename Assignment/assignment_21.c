@@ -1,4 +1,3 @@
-// program to copy contents of one file to another file using file handling in C
 #include <stdio.h>
 #include <stdlib.h>
 
