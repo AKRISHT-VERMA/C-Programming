@@ -1,9 +1,3 @@
-// program thaty accepts a string from the user and performs the following operations on it:
-// a) calculate the length of the string
-// b) string reversal 
-// c) equality check of two strings
-// d) check palindrome
-// e) check substring
 #include <stdio.h>
 #include <string.h> 
 #include <stdbool.h>
